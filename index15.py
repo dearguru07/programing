@@ -13,7 +13,7 @@ else:
 print("marks displed....")      
 
     
-          
+
 marks=int(input("enter ur marks"))
 if 85<=marks <=100:
     print("distinction")
@@ -23,6 +23,7 @@ elif 45<= marks <=64:
     print("second class")
 else:
     print("better luck next time")     
+        
                            
 # cost=int(input("enter amount"))
 # if cost>29 and cost<29:
@@ -34,7 +35,6 @@ else:
 # else:
 #     print("eggs")        
 # print('this are the avalible vagitables')
-
 
 
 # veg=input("enter what you want")
