@@ -1,4 +1,3 @@
-# # n=int(input("enter a num:"))
 # -------------------reverse Numbers  using Functione-------------
 
 # def reversedigit(n):

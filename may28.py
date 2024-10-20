@@ -45,25 +45,24 @@
 #     print(n)
 #     Function2(n-1)
 # n=5
-
 # Function2(n)    
 
 
-# def Pattern(n):
-#     if n==1:
-#         return '1'
-#     else:
-#         return str(n) + Pattern(n-1)
-# n=5
-# print(Pattern(n))    
+def Pattern(n):
+    if n==1:
+        return '1'
+    else:
+        return str(n) + Pattern(n-1)
+n=5
+print(Pattern(n))    
 
 
-def Pnum(n,m):
-    if n<=m:
-        print(n)
-        Pnum(n +1,m)
-    if n<=m:
-        print(n) 
-n=1
-m=5
-Pnum(n,m)
+# def Pnum(n,m):
+#     if n<=m:
+#         print(n)
+#         Pnum(n +1,m)
+#     if n<=m:
+#         print(n) 
+# n=1
+# m=5
+# Pnum(n,m)

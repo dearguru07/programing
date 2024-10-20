@@ -1,4 +1,3 @@
-
 # ----------------------leapyear-------------------
 
 # year=int(input("enter a year : "))
@@ -38,28 +37,32 @@
 #         print(year)
               
 
-# n1=int(input('enter a number '))
-# n2=int(input('enter a number'))
+# hcf------------------------------
 
-# if n1>n2:
-#     n1,n2=n2,n1
-# for i in range(1,n1+1):
-#     if (n1%i ==0) and (n2%i ==0):
-#         hcf=i
-# print(hcf)
-
-
-def FindHcf(n1,n2):
-    if n1>n2:
-        n1,n2=n2,n1
-    for i in range(1,n1+1):
-        if (n1% i==0) and (n2%i ==0):
-            hcf=i
-    return hcf  
-        
 n1=int(input('enter a number '))
 n2=int(input('enter a number'))
-result=FindHcf(n1,n2)
-print(result)    
+
+if n1>n2:
+    n1,n2=n2,n1
+for i in range(1,n1+1):
+    if (n1%i ==0) and (n2%i ==0):
+        hcf=i
+print(hcf)
+
+
+# def FindHcf(n1,n2):
+#     if n1>n2:
+#         n1,n2=n2,n1
+#     for i in range(1,n1+1):
+#         if (n1% i==0) and (n2%i ==0):
+#             hcf=i
+#     return hcf  
+        
+# n1=int(input('enter a number '))
+# n2=int(input('enter a number '))
+# result=FindHcf(n1,n2)
+# print(result)    
+
+
 
 # write a python progrsm  to disply LCM(least common mutliplers) of thee given two nbrs 

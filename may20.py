@@ -1,21 +1,33 @@
 #-----------------using Functions for finding the Prime Numbers------------
 
-def checkPrime(n):
-    er = n // 2
-    for i in range(2, er + 1):
-        if n % i == 0:
-            return False
-    return True
+# def Prime(n):
+#     tem=True
+#     en=n//2
+#     for i in range(2,en+1):
+#         if n%i==0:
+#             tem=False
+#             break
+#     if tem==True and n>1:
+#         print('prime')    
+#     else:
+#         print('not a prime')    
+# n=int(input('enter a number'))        
+# Prime(n)
 
 
-sr = int(input("enter a num"))
-er = int(input("enter a num"))
-
-for i in range(sr, er + 1):
-    if i > 1:
-        flag= checkPrime(i)
-        if flag==True:
-            print(i)
+# def checkPrime(n):
+#     er = n // 2
+#     for i in range(2, er + 1):
+#         if n % i == 0:
+#             return False
+#     return True
+# sr = int(input("enter a num"))
+# er = int(input("enter a num"))
+# for i in range(sr, er + 1):
+#     if i > 1:
+#         flag= checkPrime(i)
+#         if flag==True:
+#             print(i)
 
 
 #-----------------using Functions for finding the Prime Numbers using range------------
@@ -44,17 +56,25 @@ for i in range(sr, er + 1):
 
 # n=int(input("enrter a nub"))
 # count=0
-
-# while n>0:
+# while n!=0:
 #     n=n//10
 #     count=count+1
 # print(count)
 
+def Count(n):
+    Count=0
+    while n!=0:
+        n//=10
+        Count+=1
+    return Count
+n=int(input('enter a number'))            
+res=Count(n)
+print(res)
 
 
 # def Count(n):
 #     Count=0
-#     while n>0:
+#     while n!=0:
 #      n=n//10
 #      Count=Count+1
 #     return Count
